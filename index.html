@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rock, Paper, Scissors</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/575f09d0fb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="button-div">
+      <button data-tooltip="Rock" id="rock">
+        <i class="fa-solid fa-gem"></i>
+      </button>
+      <button data-tooltip="Paper" id="paper">
+        <i class="fa-solid fa-note-sticky"></i>
+      </button>
+      <button data-tooltip="Scissors" id="scissors">
+        <i class="fa-solid fa-scissors"></i>
+      </button>
+    </div>
+    <button id="start-game-btn">Start Game!</button>
+    <div id="message-container"></div>
+  </body>
+</html>
