@@ -2,13 +2,13 @@
 
 ### Screenshots
 
-![default state](./src/assets/default-state.png)
+![default state](./assets/default-state.png)
 
-![win state](./src/assets/win-state.png)
+![win state](./assets/win-state.png)
 
-![lose state](./src/assets/lose-state.png)
+![lose state](./assets/lose-state.png)
 
-![draw-state](./src/assets/draw-state.png)
+![draw-state](./assets/draw-state.png)
 
 ### Links
 
